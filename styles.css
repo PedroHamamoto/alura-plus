@@ -72,18 +72,46 @@ body {
     width: 80%;
 }
 
-.platforms {
+.secondary {
     align-items: center;
     margin: 0 10em;
 }
 
-.platforms_description_title {
+.secondary_description_title {
     font-size: 4rem;
     font-weight: 700;
     color: var(--main-text-color);
     margin-bottom: 0.1em;
 }
 
-.platforms_description_text {
+.secondary_description_text {
     color: var(--secondary-text-color);
+}
+
+.secondary__button {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.secondary__description {
+    padding: 2em;
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices__tile {
+    font-size: 4rem;
+}
+
+.devices__list__item {
+    font-size: 2rem;
 }
