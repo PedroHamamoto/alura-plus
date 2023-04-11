@@ -25,6 +25,8 @@ body {
     background-image: url("./assets/background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -40,6 +42,7 @@ body {
     text-decoration: none;
     color: var(--main-text-color);
     display: block;
+    margin-bottom: 1em;
 }
 
 .container__button_secondary {
@@ -55,4 +58,32 @@ body {
 .container__title {
     font-size: 1.75rem;
     font-weight: 700;
+}
+
+.container__image {
+    margin: 1em 0 2em 0;
+}
+
+.container__box {
+    margin: 0 6em;
+}
+
+.platforms__image {
+    width: 80%;
+}
+
+.platforms {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.platforms_description_title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--main-text-color);
+    margin-bottom: 0.1em;
+}
+
+.platforms_description_text {
+    color: var(--secondary-text-color);
 }
