@@ -115,3 +115,32 @@ body {
 .devices__list__item {
     font-size: 2rem;
 }
+
+.footer {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.footer__logo {
+    align-self: center;
+}
+
+.footer__links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.footer__links__link a{
+    color: var(--main-text-color);
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.footer__text {
+    margin: 1em 0;
+    color: var(--secondary-text-color);
+    font-size: 0.875rem;
+}
